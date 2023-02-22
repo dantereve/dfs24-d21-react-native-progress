@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ItAkademyEatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ItAkademyEatsTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ItAkademyEats.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ItAkademyEats.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-ItAkademyEats-ItAkademyEatsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ItAkademyEats-ItAkademyEatsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A02795C8B1F03B94940DA010 /* libPods-ItAkademyEats-ItAkademyEatsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEEA67A1EE64752ED3D2000 /* libPods-ItAkademyEats-ItAkademyEatsTests.a */; };
+		B72742B2EEB90D5C7382D9DA /* libPods-ItAkademyEats.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6CD4514482DC56AD5557FE /* libPods-ItAkademyEats.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ItAkademyEats/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ItAkademyEats/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ItAkademyEats/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ItAkademyEats-ItAkademyEatsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ItAkademyEats-ItAkademyEatsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-ItAkademyEats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItAkademyEats.debug.xcconfig"; path = "Target Support Files/Pods-ItAkademyEats/Pods-ItAkademyEats.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-ItAkademyEats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItAkademyEats.release.xcconfig"; path = "Target Support Files/Pods-ItAkademyEats/Pods-ItAkademyEats.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig"; path = "Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-ItAkademyEats.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ItAkademyEats.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E475AFB218009DD4FBBFBB3 /* Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig"; path = "Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F6CD4514482DC56AD5557FE /* libPods-ItAkademyEats.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ItAkademyEats.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ItAkademyEats/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig"; path = "Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AEEA67A1EE64752ED3D2000 /* libPods-ItAkademyEats-ItAkademyEatsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ItAkademyEats-ItAkademyEatsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14A577DF1DE07B5EDC9A31D /* Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig"; path = "Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFF991C1CF64901E71EF632A /* Pods-ItAkademyEats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItAkademyEats.release.xcconfig"; path = "Target Support Files/Pods-ItAkademyEats/Pods-ItAkademyEats.release.xcconfig"; sourceTree = "<group>"; };
+		D44A48F8E03391959BCFC52B /* Pods-ItAkademyEats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItAkademyEats.debug.xcconfig"; path = "Target Support Files/Pods-ItAkademyEats/Pods-ItAkademyEats.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-ItAkademyEats-ItAkademyEatsTests.a in Frameworks */,
+				A02795C8B1F03B94940DA010 /* libPods-ItAkademyEats-ItAkademyEatsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-ItAkademyEats.a in Frameworks */,
+				B72742B2EEB90D5C7382D9DA /* libPods-ItAkademyEats.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-ItAkademyEats.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ItAkademyEats-ItAkademyEatsTests.a */,
+				4F6CD4514482DC56AD5557FE /* libPods-ItAkademyEats.a */,
+				8AEEA67A1EE64752ED3D2000 /* libPods-ItAkademyEats-ItAkademyEatsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-ItAkademyEats.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-ItAkademyEats.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig */,
+				D44A48F8E03391959BCFC52B /* Pods-ItAkademyEats.debug.xcconfig */,
+				CFF991C1CF64901E71EF632A /* Pods-ItAkademyEats.release.xcconfig */,
+				4E475AFB218009DD4FBBFBB3 /* Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig */,
+				A14A577DF1DE07B5EDC9A31D /* Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ItAkademyEatsTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				ADA04DF4ED7DCC6FEAA87414 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				E588A08FE6A53FC5311EEE3C /* [CP] Embed Pods Frameworks */,
+				74C6FEA8097D0B2D66BAC2E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ItAkademyEats" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				884253E5D8C27D7B843D4D88 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				47C0FF35B9DA092E418A5637 /* [CP] Embed Pods Frameworks */,
+				A694E01A279A70B87837ACB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,7 +266,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		47C0FF35B9DA092E418A5637 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,29 +283,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats/Pods-ItAkademyEats-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		74C6FEA8097D0B2D66BAC2E4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ItAkademyEats-ItAkademyEatsTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		884253E5D8C27D7B843D4D88 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,24 +322,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		A694E01A279A70B87837ACB7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,21 +339,43 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats/Pods-ItAkademyEats-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		ADA04DF4ED7DCC6FEAA87414 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ItAkademyEats-ItAkademyEatsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E588A08FE6A53FC5311EEE3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ItAkademyEats-ItAkademyEatsTests/Pods-ItAkademyEats-ItAkademyEatsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig */;
+			baseConfigurationReference = 4E475AFB218009DD4FBBFBB3 /* Pods-ItAkademyEats-ItAkademyEatsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +457,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig */;
+			baseConfigurationReference = A14A577DF1DE07B5EDC9A31D /* Pods-ItAkademyEats-ItAkademyEatsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +481,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ItAkademyEats.debug.xcconfig */;
+			baseConfigurationReference = D44A48F8E03391959BCFC52B /* Pods-ItAkademyEats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -508,7 +508,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ItAkademyEats.release.xcconfig */;
+			baseConfigurationReference = CFF991C1CF64901E71EF632A /* Pods-ItAkademyEats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
