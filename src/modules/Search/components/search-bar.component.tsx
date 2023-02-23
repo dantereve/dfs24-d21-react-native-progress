@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import {View, TextInput, TouchableOpacity, StyleSheet, Text} from 'react-native';
+import {View, TextInput, TouchableOpacity, StyleSheet} from 'react-native';
+import Icon from '../../../shared/components/Icon/icon.component';
 
 export const SearchBar = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -15,7 +16,7 @@ export const SearchBar = () => {
   return (
     <View style={styles.container}>
       <View style={styles.searchBar}>
-        {/*TODO put search icon here*/}
+        <Icon name={'search'} width={20} height={20} stroke={'#181818'} />
         <TextInput
           style={styles.input}
           placeholder="Search"
@@ -26,8 +27,7 @@ export const SearchBar = () => {
         />
         <View style={styles.separator} />
         <TouchableOpacity onPress={handleFilter}>
-        {/*TODO put filter icon here instead of bellow text*/}
-          <Text>Filtre</Text>
+          <Icon name={'filter'} width={20} height={20} stroke={'#181818'} />
         </TouchableOpacity>
       </View>
     </View>
