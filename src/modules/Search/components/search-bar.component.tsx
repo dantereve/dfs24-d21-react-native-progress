@@ -1,8 +1,38 @@
 import React, {useState} from 'react';
-import {View, TextInput, TouchableOpacity, StyleSheet} from 'react-native';
+import {TouchableOpacity} from 'react-native';
+// @ts-ignore
+import styled from 'styled-components/native';
+
 import Icon from '../../../shared/components/Icon/icon.component';
 
-export const SearchBar = () => {
+const Container = styled.View`
+  margin-vertical: 10px;
+  margin-horizontal: 20px;
+`;
+
+const SearchBarWrapper = styled.View`
+  flex-direction: row;
+  align-items: center;
+  background-color: #e5e5e5;
+  border-radius: 20px;
+  padding-vertical: 10px;
+  padding-horizontal: 10px;
+`;
+
+const Input = styled.TextInput`
+  flex: 1;
+  margin-left: 10px;
+  font-weight: 700;
+`;
+
+const Separator = styled.View`
+  width: 1px;
+  height: 24px;
+  background-color: #ccc;
+  margin-right: 10px;
+`;
+
+const SearchBar = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearch = () => {
@@ -14,50 +44,23 @@ export const SearchBar = () => {
   };
 
   return (
-    <View style={styles.container}>
-      <View style={styles.searchBar}>
+    <Container>
+      <SearchBarWrapper>
         <Icon name={'search'} width={20} height={20} stroke={'#181818'} />
-        <TextInput
-          style={styles.input}
+        <Input
           placeholder="Search"
           value={searchQuery}
-          onChangeText={text => setSearchQuery(text)}
+          onChangeText={(text: string) => setSearchQuery(text)}
           onSubmitEditing={handleSearch}
           placeholderTextColor="#6b6b6b"
         />
-        <View style={styles.separator} />
+        <Separator />
         <TouchableOpacity onPress={handleFilter}>
           <Icon name={'filter'} width={20} height={20} stroke={'#181818'} />
         </TouchableOpacity>
-      </View>
-    </View>
+      </SearchBarWrapper>
+    </Container>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    marginVertical: 10,
-    marginHorizontal: 20,
-  },
-  searchBar: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#e5e5e5',
-    borderRadius: 20,
-    paddingVertical: 10,
-    paddingHorizontal: 10,
-  },
-  input: {
-    flex: 1,
-    marginLeft: 10,
-    fontWeight: '700',
-  },
-  separator: {
-    width: 1,
-    height: 24,
-    backgroundColor: '#ccc',
-    marginRight: 10,
-  },
-});
 
 export default SearchBar;
