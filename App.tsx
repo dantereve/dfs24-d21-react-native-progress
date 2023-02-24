@@ -17,10 +17,9 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 import SearchBar from './src/modules/Search/components/search-bar.component';
+import {RestaurantCard} from './src/modules/Restaurants/components/restaurant-card.component';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -69,11 +68,11 @@ function App(): JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <SearchBar />
+        <RestaurantCard />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-        </View>
+          }}></View>
       </ScrollView>
     </SafeAreaView>
   );
