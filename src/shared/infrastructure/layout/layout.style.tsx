@@ -1,5 +1,6 @@
 import React from 'react';
-import styled, {CSSObject} from 'styled-components/native';
+import styled from 'styled-components/native';
+import {CSSObject} from 'styled-components';
 
 interface LayoutProps {
   padding?: number | string;
