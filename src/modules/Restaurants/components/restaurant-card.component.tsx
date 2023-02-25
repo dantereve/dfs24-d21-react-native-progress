@@ -39,26 +39,36 @@ const RatingText = styled.Text`
   color: ${({theme}: {theme: ITheme}) => theme.colors.text.darker};
 `;
 
-export const RestaurantCard = () => {
+interface IRestaurantCardProps {
+  name: string;
+  deliveryCost: string;
+  deliveryTime: string;
+  rating: number;
+  imageUri: string;
+}
+
+export const RestaurantCard: React.FC<IRestaurantCardProps> = ({
+  name,
+  deliveryCost,
+  deliveryTime,
+  rating,
+  imageUri,
+}) => {
   return (
     <VStack padding={16}>
-      <RestaurantCardCover
-        source={{
-          uri: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
-        }}
-      />
+      <RestaurantCardCover source={{uri: imageUri}} />
       <HStack>
         <VStack paddingTop={8}>
-          <RestaurantName>Restaurant Name</RestaurantName>
+          <RestaurantName>{name}</RestaurantName>
           <HStack>
-            <TextRow>5€ livraison</TextRow>
+            <TextRow>{deliveryCost}</TextRow>
             <TextRow> &bull; </TextRow>
-            <TextRow>20 - 40min</TextRow>
+            <TextRow>{deliveryTime}</TextRow>
           </HStack>
         </VStack>
         <Spacer />
         <RatingCircle>
-          <RatingText>4.5</RatingText>
+          <RatingText>{rating}</RatingText>
         </RatingCircle>
       </HStack>
     </VStack>

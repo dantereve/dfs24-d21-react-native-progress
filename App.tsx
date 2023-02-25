@@ -22,6 +22,7 @@ import SearchBar from 'modules/Search/components/search-bar.component';
 import {RestaurantCard} from 'modules/Restaurants/components/restaurant-card.component';
 import {ThemeProvider} from 'styled-components/native';
 import {theme} from 'shared/infrastructure/theme';
+import {RestaurantsScreen} from 'modules/Restaurants/screens/restaurants.screen';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -67,16 +68,7 @@ function App(): JSX.Element {
           barStyle={isDarkMode ? 'light-content' : 'dark-content'}
           backgroundColor={backgroundStyle.backgroundColor}
         />
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={backgroundStyle}>
-          <SearchBar />
-          <RestaurantCard />
-          <View
-            style={{
-              backgroundColor: isDarkMode ? Colors.black : Colors.white,
-            }}></View>
-        </ScrollView>
+        <RestaurantsScreen />
       </SafeAreaView>
     </ThemeProvider>
   );
