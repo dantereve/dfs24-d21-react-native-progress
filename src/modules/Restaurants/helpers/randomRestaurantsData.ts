@@ -31,11 +31,11 @@ const generateRandomRestaurantData = () => {
     'Diner',
   ];
   const deliveryCosts = [
-    '2€ livraison',
-    '4€ livraison',
-    'Gratuit',
-    '1,50€ livraison',
-    '3€ livraison',
+    'Frais de livraison: 2€',
+    'Frais de livraison: 4€',
+    'Frais de livraison: Gratuit',
+    'Frais de livraison: 1,50€',
+    'Frais de livraison: 3€',
   ];
   const deliveryTimes = [
     '10 - 20min',

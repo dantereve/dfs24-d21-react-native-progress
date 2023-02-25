@@ -23,6 +23,7 @@ import {RestaurantCard} from 'modules/Restaurants/components/restaurant-card.com
 import {ThemeProvider} from 'styled-components/native';
 import {theme} from 'shared/infrastructure/theme';
 import {RestaurantsScreen} from 'modules/Restaurants/screens/restaurants.screen';
+import {Navigation} from 'shared/infrastructure/navigation/navigation';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -63,13 +64,13 @@ function App(): JSX.Element {
 
   return (
     <ThemeProvider theme={theme}>
-      <SafeAreaView style={backgroundStyle}>
-        <StatusBar
-          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-          backgroundColor={backgroundStyle.backgroundColor}
-        />
-        <RestaurantsScreen />
-      </SafeAreaView>
+      {/*<SafeAreaView style={backgroundStyle}>*/}
+      <StatusBar
+        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+        backgroundColor={backgroundStyle.backgroundColor}
+      />
+      <Navigation />
+      {/*</SafeAreaView>*/}
     </ThemeProvider>
   );
 }
