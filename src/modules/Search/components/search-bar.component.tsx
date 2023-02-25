@@ -4,6 +4,7 @@ import {TouchableOpacity} from 'react-native';
 import styled from 'styled-components/native';
 
 import Icon from '../../../shared/components/Icon/icon.component';
+import {ITheme} from 'shared/infrastructure/theme';
 
 const Container = styled.View`
   margin-vertical: 10px;
@@ -13,7 +14,8 @@ const Container = styled.View`
 const SearchBarWrapper = styled.View`
   flex-direction: row;
   align-items: center;
-  background-color: #e5e5e5;
+  background-color: ${({theme}: {theme: ITheme}) =>
+    theme.colors.ui.greyBackground};
   border-radius: 20px;
   padding-vertical: 10px;
   padding-horizontal: 10px;
@@ -28,7 +30,8 @@ const Input = styled.TextInput`
 const Separator = styled.View`
   width: 1px;
   height: 24px;
-  background-color: #ccc;
+  background-color: ${({theme}: {theme: ITheme}) =>
+    theme.colors.ui.backgroundSeparator};
   margin-right: 10px;
 `;
 

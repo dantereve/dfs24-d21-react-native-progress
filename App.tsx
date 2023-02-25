@@ -18,8 +18,10 @@ import {
 } from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import SearchBar from './src/modules/Search/components/search-bar.component';
-import {RestaurantCard} from './src/modules/Restaurants/components/restaurant-card.component';
+import SearchBar from 'modules/Search/components/search-bar.component';
+import {RestaurantCard} from 'modules/Restaurants/components/restaurant-card.component';
+import {ThemeProvider} from 'styled-components/native';
+import {theme} from 'shared/infrastructure/theme';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -59,22 +61,24 @@ function App(): JSX.Element {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <SearchBar />
-        <RestaurantCard />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}></View>
-      </ScrollView>
-    </SafeAreaView>
+    <ThemeProvider theme={theme}>
+      <SafeAreaView style={backgroundStyle}>
+        <StatusBar
+          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+          backgroundColor={backgroundStyle.backgroundColor}
+        />
+        <ScrollView
+          contentInsetAdjustmentBehavior="automatic"
+          style={backgroundStyle}>
+          <SearchBar />
+          <RestaurantCard />
+          <View
+            style={{
+              backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            }}></View>
+        </ScrollView>
+      </SafeAreaView>
+    </ThemeProvider>
   );
 }
 
